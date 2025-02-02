@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a2640;
+  position: relative;
+  // overflow: hidden;
+}
+
+main {
+  flex-grow: 1;
+}

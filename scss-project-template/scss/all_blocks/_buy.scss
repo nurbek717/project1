@@ -1,0 +1,88 @@
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+.buy__text {
+  width: 550px;
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #fff;
+  margin: 0;
+}
+.buy__prg {
+  width: 550px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #b8c1c7;
+  margin-bottom: 40px;
+  //   margin: 16px 0;
+}
+.buy-btn__button {
+  width: Hug (247px);
+  height: Hug (60px);
+  padding: 16px 56px 16px 56px;
+  border-radius: 56px;
+  border: 1px solid #65e4a3;
+  background: #65e4a3;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #0a2640;
+  margin-right: 24px;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    border: 1px solid #fff;
+    background-color: #0a2640;
+    color: #fff;
+  }
+}
+.buy-btn__button:nth-of-type(2) {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  border: 1px solid #fff;
+  background-color: #0a2640;
+  color: #fff;
+
+  &:active {
+    color: #0a2640;
+    background: #65e4a3;
+    border: 1px solid #65e4a3;
+  }
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  margin-bottom: 64px;
+}
+.svg {
+  opacity: 0.2;
+}
+.svg:nth-child(2) {
+  opacity: 0.7;
+}
+.svg:nth-child(3) {
+  opacity: 1;
+}
+.svg:nth-child(4) {
+  opacity: 1;
+}
+.svg:nth-child(5) {
+  opacity: 0.7;
+}
+.svg:nth-child(6) {
+  opacity: 0.2;
+}

@@ -1,0 +1,50 @@
+header {
+  margin-top: 20px;
+}
+header::after {
+  content: "";
+  width: 1293px;
+  height: 1293px;
+  border-radius: 50%;
+  display: block;
+  background-color: #1c3d5b;
+  border: none;
+  position: absolute;
+  top: -789px;
+  left: 720px;
+  z-index: -1;
+  overflow: hidden;
+}
+.boldo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boldo__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.boldo__list {
+  margin-left: 40px;
+}
+.boldo__link {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+.boldo__btn {
+  width: 130px;
+  height: 40px;
+  padding: 8px 40px 8px 40px;
+  gap: 8px;
+  border-radius: 24px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #fff;
+}
